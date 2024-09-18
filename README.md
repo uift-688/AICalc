@@ -1,4 +1,53 @@
-# AICalc
-Addition/subtraction neural network (inaccurate)
-information: This code does not use Python's AI module.
-Required modules: Numpy, pickle
+# Addition/Subtraction Neural Network
+
+このプロジェクトは、加算および減算を学習するシンプルなニューラルネットワークの実装です。PythonのAIモジュールを使用せず、`numpy`と`pickle`を利用しています。
+
+## 必要なモジュール
+
+このプロジェクトでは、以下のモジュールが必要です：
+
+- `numpy`
+- `pickle`
+
+これらのモジュールは、次のコマンドでインストールできます：
+
+```bash
+pip install numpy
+```
+
+## 概要
+
+このニューラルネットワークは、加算と減算の演算を学習し、与えられた入力に対して正しい出力を予測することを目的としています。モデルのトレーニングと評価には`numpy`を使用しており、モデルの保存と読み込みには`pickle`を使用しています。
+
+## 使用方法
+
+1. プロジェクトディレクトリに移動します。
+
+2. モデルをトレーニングするには、`train.py`を実行します：
+
+   ```bash
+   python train.py
+   ```
+
+3. トレーニング後、モデルを保存するには、`save_model.py`を実行します：
+
+   ```bash
+   python save_model.py
+   ```
+
+4. 保存したモデルを使用して予測を行うには、`predict.py`を実行します：
+
+   ```bash
+   python predict.py
+   ```
+
+## ファイル構成
+
+- `train.py`: ニューラルネットワークのトレーニングを行うスクリプト
+- `save_model.py`: トレーニングしたモデルをファイルに保存するスクリプト
+- `predict.py`: 保存されたモデルを用いて予測を行うスクリプト
+- `model.pkl`: 保存されたモデルファイル（`save_model.py`で生成）
+
+## ライセンス
+
+このプロジェクトには特定のライセンスはありません。自由に利用、変更、配布してください。
