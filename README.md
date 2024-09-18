@@ -67,4 +67,4 @@ pip install numpy
 
 ---
 
-ご質問や提案がある場合は、[Issues](https://github.com/yourusername/yourrepository/issues)でご連絡ください。
+ご質問や提案がある場合は、[Issues](https://github.com/uift-688/AICalc/issues)でご連絡ください。
