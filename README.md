@@ -21,33 +21,22 @@ pip install numpy
 
 ## 使用方法
 
-1. プロジェクトディレクトリに移動します。
-
-2. モデルをトレーニングするには、`train.py`を実行します：
-
-   ```bash
-   python train.py
-   ```
-
-3. トレーニング後、モデルを保存するには、`save_model.py`を実行します：
-
-   ```bash
-   python save_model.py
-   ```
-
-4. 保存したモデルを使用して予測を行うには、`predict.py`を実行します：
-
-   ```bash
-   python predict.py
-   ```
+[AICalc.py(Raw Link)](https://raw.githubusercontent.com/uift-688/AICalc/main/AICalc.py)からダウンロードし、
+```bash
+python AICalc.py
+```
+を実行してニューラルネットワークを開始できます。
 
 ## ファイル構成
 
-- `train.py`: ニューラルネットワークのトレーニングを行うスクリプト
-- `save_model.py`: トレーニングしたモデルをファイルに保存するスクリプト
-- `predict.py`: 保存されたモデルを用いて予測を行うスクリプト
-- `model.pkl`: 保存されたモデルファイル（`save_model.py`で生成）
+- `AICalc.py`: すべての機能が集まったニューラルネットワークプログラム
+- `model_params.pkl`: 保存されたモデルファイル（`AICalc.py`で生成）
 
 ## ライセンス
 
 このプロジェクトには特定のライセンスはありません。自由に利用、変更、配布してください。
+
+## 注意
+
+このニューラルネットワーク(v1.0)はまだ開発段階であり、誤差が多いと調査されています。(特に引き算モデル)
+実用として使うにはベータ版になるまで長らくお待ちください。
