@@ -83,8 +83,8 @@ def fine_tune_with_elastic_net(X, y, weights, bias, batch_size=32, learning_rate
 
             # NaNやinfのチェック
             if np.any(np.isnan(weights)) or np.any(np.isinf(weights)) or \
-               np.any(np.isnan(bias)) or np.any(np.isinf(bias)) or \
-               np.any(np.isnan(error)) or np.any(np.isinf(error)):
+                np.any(np.isnan(bias)) or np.any(np.isinf(bias)) or \
+                np.any(np.isnan(error)) or np.any(np.isinf(error)):
                 print("NaN/inf発生時の weights: ", weights)
                 print("NaN/inf発生時の bias: ", bias)
                 print("NaN/inf発生時の error: ", error)
