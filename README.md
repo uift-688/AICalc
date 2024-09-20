@@ -67,6 +67,7 @@ pip install numpy
 
 ## バージョン履歴
 
+[1.4](https://raw.githubusercontent.com/uift-688/AICalc/main/AICalc-1.4.py) - v1.2のデバック版
 [1.2](https://raw.githubusercontent.com/uift-688/AICalc/main/AICalc-1.2.py) - 更なるわかりやすさ & エラーエラーハンドリング(バグの確認: --NoModelSaveオプションがないとエラーが発生する)<br>
 [1.0](https://raw.githubusercontent.com/uift-688/AICalc/main/AICalc.py) - 初期のリリース
 
