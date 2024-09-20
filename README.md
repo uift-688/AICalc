@@ -65,12 +65,6 @@ pip install numpy
 
 このニューラルネットワークはバージョン1.0であり、まだ開発段階です。特に引き算モデルに関しては誤差が多いことが確認されています。実用として使用するには、ベータ版になるまでお待ちください。
 
-## バージョン履歴
-
-[1.4](https://raw.githubusercontent.com/uift-688/AICalc/main/AICalc-1.4.py) - v1.2のデバック版<br>
-[1.2](https://raw.githubusercontent.com/uift-688/AICalc/main/AICalc-1.2.py) - 更なるわかりやすさ & エラーエラーハンドリング(バグの確認: --NoModelSaveオプションがないとエラーが発生する)<br>
-[1.0](https://raw.githubusercontent.com/uift-688/AICalc/main/AICalc.py) - 初期のリリース
-
 ---
 
 ご質問や提案がある場合は、[Issues](https://github.com/uift-688/AICalc/issues)でご連絡ください。
